@@ -5,6 +5,7 @@ using System.Diagnostics;
 
 namespace DataProtection.Web.Controllers
 {
+    [ServiceFilter(typeof(CheckWhiteList))]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -13,7 +14,7 @@ namespace DataProtection.Web.Controllers
         {
             _logger = logger;
         }
-        [ServiceFilter(typeof(CheckWhiteList))]
+      
         public IActionResult Index()
         {
             return View();
