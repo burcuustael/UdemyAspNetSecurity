@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProtection.Web", "DataProtection.Web\DataProtection.Web.csproj", "{EB21773C-4ED4-4819-B064-3D7F84C60A8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataProtection.Web", "DataProtection.Web\DataProtection.Web.csproj", "{EB21773C-4ED4-4819-B064-3D7F84C60A8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecretProtection.Web", "SecretProtection.Web\SecretProtection.Web.csproj", "{C9D18FE8-6482-432C-B4A3-07F81F3F2246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecretProtection.Web", "SecretProtection.Web\SecretProtection.Web.csproj", "{C9D18FE8-6482-432C-B4A3-07F81F3F2246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeb.API", "MyWeb.API\MyWeb.API.csproj", "{A6FD26EB-0715-4D8D-AAAA-2C2A3FBFB8A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyWeb.Web", "MyWeb.Web\MyWeb.Web.csproj", "{5DA9F003-2EDF-4061-B5F3-67CAD06554EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C9D18FE8-6482-432C-B4A3-07F81F3F2246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D18FE8-6482-432C-B4A3-07F81F3F2246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D18FE8-6482-432C-B4A3-07F81F3F2246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FD26EB-0715-4D8D-AAAA-2C2A3FBFB8A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FD26EB-0715-4D8D-AAAA-2C2A3FBFB8A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FD26EB-0715-4D8D-AAAA-2C2A3FBFB8A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FD26EB-0715-4D8D-AAAA-2C2A3FBFB8A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA9F003-2EDF-4061-B5F3-67CAD06554EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA9F003-2EDF-4061-B5F3-67CAD06554EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA9F003-2EDF-4061-B5F3-67CAD06554EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA9F003-2EDF-4061-B5F3-67CAD06554EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
